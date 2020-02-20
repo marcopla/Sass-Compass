@@ -1,5 +1,5 @@
-@import 'helpers/variaveis.scss';
-@import 'helpers/mixins.scss';
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
 
 @import 'base/normalize';
 @import 'layout/geral';
@@ -11,3 +11,4 @@
 @import 'layout/planos';
 @import 'layout/sobre';
 @import 'layout/footer';
+@import 'layout/media-queries.css';
