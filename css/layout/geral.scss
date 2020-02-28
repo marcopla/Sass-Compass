@@ -6,7 +6,7 @@ body {
     width: 940px;
     margin: 0 auto;
 
-    @media (max-widht: 890px) {
+    @media (max-widht: $ponto-de-quebra) {
         .container {
             width: 940px;
             margin: 0 auto;
