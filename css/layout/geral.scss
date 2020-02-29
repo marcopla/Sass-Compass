@@ -6,11 +6,9 @@ body {
     width: 940px;
     margin: 0 auto;
 
-    @media (max-widht: $ponto-de-quebra) {
-        .container {
+    @media #{$mq-mobile} {
             width: 940px;
             margin: 0 auto;
-        }
     }
 }
 .titulo-secao {

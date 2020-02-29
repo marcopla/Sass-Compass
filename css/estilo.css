@@ -373,8 +373,8 @@ body {
 .container {
   width: 940px;
   margin: 0 auto; }
-  @media (max-widht: 980px) {
-    .container .container {
+  @media (max-width: 980px) {
+    .container {
       width: 940px;
       margin: 0 auto; } }
 
@@ -412,7 +412,7 @@ header {
 
 header .container {
   position: relative; }
-  @media (max-width: ponto-de-quebra) {
+  @media (max-width: 980px) {
     header .container {
       position: static; } }
 
