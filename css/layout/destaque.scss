@@ -34,7 +34,7 @@
     border: 0;
     padding: .6em;
     font-size: 1.2em;
-    @include borda-arredondada($raio-grande);
+    @include border-radius(25px);
     @include box-shadow(black 0 2px 5px);
     font-weight: bold;
   }
