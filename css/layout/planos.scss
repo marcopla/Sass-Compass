@@ -65,13 +65,13 @@
   }
   
   .icone-check, .icone-x {
-    background: url(../imagens/sprite.png) no-repeat;
+    @include all-sprite-sprites;
     width: 18px;
     height: 18px;
   }
   
   .icone-check {
-    background-position: -5px -5px;
+    background-position: 0px 0px;
   }
   
   .icone-x {
