@@ -734,6 +734,14 @@ textarea {
   height: 18px;
 }
 
+.sprite-icone-ok {
+  background-position: 0 0;
+}
+
+.sprite-icone-x {
+  background-position: 0 -23px;
+}
+
 /** Sobre **/
 .sobre {
   background: #ebebeb;
