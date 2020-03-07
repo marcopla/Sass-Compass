@@ -1,5 +1,5 @@
-.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
-  background-image: url('../imagens/sprite-s1e035a9ecf.png');
+.sprite-sprite, .sprite-icone-check, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s8ca5edb2ee.png');
   background-repeat: no-repeat;
 }
 
@@ -721,7 +721,7 @@ textarea {
   margin-left: 2em;
 }
 
-.sprite-icone-ok {
+.sprite-icone-check {
   background-position: 0 0;
 }
 
@@ -734,8 +734,8 @@ textarea {
   height: 18px;
 }
 
-.sprite-icone-ok {
-  background-position: 0 0;
+.sprite-icone-check {
+  background-position: 0 0px;
 }
 
 .sprite-icone-x {
