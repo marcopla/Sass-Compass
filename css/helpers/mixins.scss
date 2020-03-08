@@ -4,6 +4,10 @@
     border-radius: $raio;
   
   }
+
+@function multiplica-pela-fonte($multiplicador) {
+  @return $multiplicador * $tamanho-da-fonte-padrao;
+}
   
 %image-replacement {
     text-indent: -9999px;
@@ -20,3 +24,4 @@
 
 @import "compass/css3";
 @import "compass/utilities";
+
